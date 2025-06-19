@@ -1,0 +1,158 @@
+body { margin:0; 
+       padding:0; 
+       font-family:'Now'; 
+       background-color:white; }
+
+@font-face { font-family:'Now'; 
+             src:url("Now-Regular.otf"); }
+
+@font-face { font-family:'DominikBan'; 
+             src:url("DominikBan.ttf"); }
+
+.navigation { display:flex; 
+              flex-direction:row; 
+              justify-content:center;
+              list-style-type:none; 
+              padding:20px auto 10px auto;
+              border-bottom:solid 1px #e5e5e5;
+              margin-bottom:0; }
+
+.header { display:flex; 
+          flex-direction:column; 
+          justify-content:center;
+          align-items:flex-start;
+          padding:100px 120px 100px 120px; 
+          background-image: linear-gradient(to bottom, #6d597a, black ) ;
+          color: white;
+          height:300px; 
+          width:auto;
+          margin-bottom:0px; }
+
+.header h1 { font-family:'DominikBan';
+             font-size:60px;
+             font-weight: 600; }
+
+.header h2 { font-size:28px;
+             font-weight: 300; }
+
+.header p { font-size:22px;
+            font-weight:200;}
+
+.footer { display:flex;
+          flex-direction:column; 
+          align-items: center;
+          font-family:'Now';
+          font-weight: 300;
+          font-size:32px; 
+          background-color:black;
+          color:white;
+          height:150px; 
+          padding:25px 10px 25px 10px;
+          margin-bottom:0px;  }
+
+.navigation a { font-size:25px;
+            font-weight:200;
+            color:black;
+            cursor:pointer; 
+            text-decoration:none;
+            opacity:65%; }
+
+.navigation a:visited { color:black;
+                    cursor:pointer; 
+                    text-decoration:none;
+                    opacity:65%;}
+
+.navigation a:hover { opacity:100%;
+                  transition:0.1s; }
+
+#logo {opacity:100%;}
+
+.navigation li { margin: 0 50px 0 50px; }
+
+.navigation img { width:35px;
+              cursor:pointer;
+              padding-bottom:6px; }
+
+.images { display:flex;
+          flex-direction:column;
+          justify-content:space-evenly; 
+          padding:100px 120px 100px 120px;
+          background-color: white; } 
+
+.images p { text-align:center; 
+            font-size:30px; 
+            font-weight:200; 
+            margin-bottom:45px; }
+
+.images img { width:15%; 
+              border:2px solid black;
+              border-radius:5px; 
+              margin:auto;
+              margin-bottom:35px;}
+
+#one { width:40%; 
+              border:2px solid black;
+              border-radius:5px;}
+
+#two { width:15%; 
+              border:2px solid black;
+              border-radius:5px;}
+
+#three { width:40%; 
+              border:2px solid black;
+              border-radius:5px;}
+
+#four {width:40%; 
+              border:2px solid black;
+              border-radius:5px;}
+
+#five {width:40%; 
+              border:2px solid black;
+              border-radius:5px;}
+
+#six {width:40%;
+              border:2px solid black;
+              border-radius:5px;}
+
+#seven {width:40%; 
+              border:2px solid black;
+              border-radius:5px; }
+
+#eight {width:40%;
+              border:2px solid black;
+              border-radius:5px; }
+
+#nine {width:40%;
+              border:2px solid black;
+              border-radius:5px; }
+
+#ten {width:40%;
+              border:2px solid black;
+              border-radius:5px; }
+
+.videos { display:flex;
+          flex-direction:row;
+          justify-content:space-evenly; 
+          padding:100px 120px 100px 120px;
+          background-color:white; }
+
+.videos video { width:25%; 
+                border:2px solid black;
+                border-radius:5px; }
+
+.videos p { text-align:left; 
+            font-size:20px; 
+            font-weight:200; }
+
+iframe { width:25%; 
+                border:2px solid black;
+                border-radius:5px; }
+
+hr { width:3%;
+     border:1px solid black;
+     border-radius:10px;
+     margin-top:25px;
+     margin-bottom:25px; } 
+     
+
+
